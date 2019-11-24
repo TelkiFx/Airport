@@ -11,12 +11,6 @@ public class AirportPanel {
   private Scanner scanner;
   private FlightService flightService;
 
-//  Constructor for the test cases
-//  public AirportPanel(Scanner scanner) {
-//    this.scanner = scanner;
-//    flightService = new FlightService(this.scanner, this);
-//  }
-
   public AirportPanel() {
     scanner = new Scanner(System.in);
     flightService = new FlightService(scanner, this);
